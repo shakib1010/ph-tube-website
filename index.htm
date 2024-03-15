@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Ph-Tube</title>
+  </head>
+  <body>
+    <header class="container mx-auto">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <img src="Logo.png" alt="" />
+        </div>
+        <div class="navbar-center">
+          <button class="btn">Sort by view</button>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Blog</a>
+        </div>
+      </div>
+      <div
+        role="tablist"
+        class="tabs tabs-boxed bg-transparent justify-center gap-2 mt-3"
+      >
+        <a role="tab" class="tab tab-active">Tab 2</a>
+        <a role="tab" class="tab tab-active">Tab 2</a>
+      </div>
+    </header>
+    <main class="container mx-auto">
+      <section class="mt-20 grid grid-cols-4">
+        <div class="card">
+          <figure class="rounded-xl relative">
+            <img
+              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              alt="Shoes"
+            />
+            <div
+              class="bg-slate-600 bg-opacity-75 rounded-lg py-1 px-2 absolute bottom-2 right-2 text-white text-sm"
+            >
+              1 hour 24 min
+            </div>
+          </figure>
+          <div class="card-body flex-row gap-4 py-4 px-0">
+            <div
+              class="size-10 rounded-full overflow-hidden flex items-center justify-center relative"
+            >
+              <img src="https://i.ibb.co/k4tkc42/oliviar-harris.jpg" alt="" />
+            </div>
+            <div>
+              <h2 class="card-title mb-2 leading-none">Title goes here</h2>
+              <p class="flex gap-2 items-center mb-2">
+                Shakibul Islam
+                <span><img src="verified-badge.svg" alt="" /></span>
+              </p>
+              <p class="text-xs font-bold"><span>31k</span> Views</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
