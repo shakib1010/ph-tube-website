@@ -27,42 +27,18 @@
       <div
         role="tablist"
         class="tabs tabs-boxed bg-transparent justify-center gap-2 mt-3"
+        id="tab-list"
       >
-        <a role="tab" class="tab tab-active">Tab 2</a>
-        <a role="tab" class="tab tab-active">Tab 2</a>
+        <!-- <a role="tab" class="tab tab-active">Tab 2</a>
+        <a role="tab" class="tab tab-active">Tab 2</a> -->
       </div>
     </header>
     <main class="container mx-auto">
-      <section class="mt-20 grid grid-cols-4">
-        <div class="card">
-          <figure class="rounded-xl relative">
-            <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-              alt="Shoes"
-            />
-            <div
-              class="bg-slate-600 bg-opacity-75 rounded-lg py-1 px-2 absolute bottom-2 right-2 text-white text-sm"
-            >
-              1 hour 24 min
-            </div>
-          </figure>
-          <div class="card-body flex-row gap-4 py-4 px-0">
-            <div
-              class="size-10 rounded-full overflow-hidden flex items-center justify-center relative"
-            >
-              <img src="https://i.ibb.co/k4tkc42/oliviar-harris.jpg" alt="" />
-            </div>
-            <div>
-              <h2 class="card-title mb-2 leading-none">Title goes here</h2>
-              <p class="flex gap-2 items-center mb-2">
-                Shakibul Islam
-                <span><img src="verified-badge.svg" alt="" /></span>
-              </p>
-              <p class="text-xs font-bold"><span>31k</span> Views</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section
+        id="card-container"
+        class="mt-20 grid grid-cols-4 gap-4"
+      ></section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
